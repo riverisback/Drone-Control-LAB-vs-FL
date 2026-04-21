@@ -1,0 +1,50 @@
+# =========================
+# MATLAB / Simulink caches
+# =========================
+slprj/
+sfprj/
+.simulink/
+**/SimulinkCache/
+**/slprj/
+
+# Simulink model cache files
+*.slxc
+
+# Generated code and build outputs
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+work/
+
+# MATLAB autosave / backup / temp
+*.asv
+*.m~
+*.autosave
+*.mlx.~
+
+# MATLAB lock and generated binary artifacts
+*.mexw64
+*.mexw32
+*.mexa64
+*.mexmaci64
+
+# Crash dumps and logs
+matlab_crash_dump.*
+hs_err_pid*
+*.log
+
+# =========================
+# Project-local caches
+# =========================
+cache/
+.cache/
+simulink/cache/
+
+# =========================
+# OS / Editor temporary files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/.history/
